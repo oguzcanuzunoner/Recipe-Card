@@ -5,7 +5,6 @@ import heartOutline from "../../assets/heart-outline.png"; // Tell webpack this 
 import heartFill from "../../assets/heart-fill.png"; // Tell webpack this JS file uses this image
 
 export default function Card(props) {
-  console.log(props);
   return (
     <div className="card">
       <div className="card-header">
